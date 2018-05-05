@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "publisher-subscriber-design-pattern", "publisher-subscriber-design-pattern\publisher-subscriber-design-pattern.csproj", "{C0BA6ABB-D896-49C2-A887-FAB06095A58E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Pub-Sub Using Delegate", "01 Pub-Sub Using Delegate\01 Pub-Sub Using Delegate.csproj", "{10062C52-C27D-434C-A2CE-36FC4EB63A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Event Keyword", "02 Event Keyword\02 Event Keyword.csproj", "{3523364F-26AE-4C7B-93CE-2CC428177403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 EventHandler", "03 EventHandler\03 EventHandler.csproj", "{F3EF16BE-AB9A-4828-B90D-44DABA5FDF68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Exception While Raising Event", "04 Exception While Raising Event\04 Exception While Raising Event.csproj", "{B6AE9B9B-2043-4AB0-A0D9-1E04364AA124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Exception Aware Event Raise", "05 Exception Aware Event Raise\05 Exception Aware Event Raise.csproj", "{F91B118F-C2E6-48CF-8C28-B3AF0DEC8569}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0BA6ABB-D896-49C2-A887-FAB06095A58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0BA6ABB-D896-49C2-A887-FAB06095A58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0BA6ABB-D896-49C2-A887-FAB06095A58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0BA6ABB-D896-49C2-A887-FAB06095A58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10062C52-C27D-434C-A2CE-36FC4EB63A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10062C52-C27D-434C-A2CE-36FC4EB63A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10062C52-C27D-434C-A2CE-36FC4EB63A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10062C52-C27D-434C-A2CE-36FC4EB63A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3523364F-26AE-4C7B-93CE-2CC428177403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3523364F-26AE-4C7B-93CE-2CC428177403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3523364F-26AE-4C7B-93CE-2CC428177403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3523364F-26AE-4C7B-93CE-2CC428177403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EF16BE-AB9A-4828-B90D-44DABA5FDF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EF16BE-AB9A-4828-B90D-44DABA5FDF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EF16BE-AB9A-4828-B90D-44DABA5FDF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EF16BE-AB9A-4828-B90D-44DABA5FDF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6AE9B9B-2043-4AB0-A0D9-1E04364AA124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AE9B9B-2043-4AB0-A0D9-1E04364AA124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AE9B9B-2043-4AB0-A0D9-1E04364AA124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AE9B9B-2043-4AB0-A0D9-1E04364AA124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91B118F-C2E6-48CF-8C28-B3AF0DEC8569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91B118F-C2E6-48CF-8C28-B3AF0DEC8569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91B118F-C2E6-48CF-8C28-B3AF0DEC8569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91B118F-C2E6-48CF-8C28-B3AF0DEC8569}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

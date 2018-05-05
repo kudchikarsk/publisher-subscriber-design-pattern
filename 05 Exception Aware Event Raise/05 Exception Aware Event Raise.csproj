@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C0BA6ABB-D896-49C2-A887-FAB06095A58E}</ProjectGuid>
+    <ProjectGuid>{F91B118F-C2E6-48CF-8C28-B3AF0DEC8569}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>publisher_subscriber_design_pattern</RootNamespace>
-    <AssemblyName>publisher-subscriber-design-pattern</AssemblyName>
+    <RootNamespace>_05_Exception_Aware_Event_Raise</RootNamespace>
+    <AssemblyName>05 Exception Aware Event Raise</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
