@@ -1,6 +1,6 @@
 # Publisher-Subscriber Design Pattern In C# Demo
 
-This solution is a part of my blog post [Publish Subscribe Design Pattern In C#](https://kudchikarsk.github.io/publish-subscribe-design-pattern-in-csharp)
+This solution is a part of my blog post [Publish Subscribe Design Pattern In C#](https://codewithshadman.com/publish-subscribe-design-pattern-in-csharp/)
 
 
 Solution contains various Windows Forms App / Console App Project for different Publisher-Subscriber Design Pattern concepts in C#.
